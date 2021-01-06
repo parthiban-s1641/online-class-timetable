@@ -33,7 +33,7 @@ body{
     left: 250px;
 }
 td,th{
-    padding: 20px;
+    padding: 10px;
 }
 #thead{
     background-color: #464a4a;
@@ -47,6 +47,7 @@ table{
 }
 td{
     background-color: rgb(110, 178, 180);
+    color: grey;
 }
 td a{
     text-decoration: none;
@@ -61,14 +62,21 @@ td:hover{
 @media (max-width:576px){
     #head{
         font-size: 30px;
-        margin-left: 50px;
         margin-bottom: 2vh;
+        position: relative;
+        left: 25vh;
+    }
+    #subhead{
+        font-size: larger;
+        font-weight: bold;
+        position: relative;
+        left: 25vh;
     }
     .timetable{
         margin-top: 2vh;
         position: absolute;
         top: 150px;
-        left: 5px;
+        left: -15px;
     }
 }
 @media (max-width:768px){
